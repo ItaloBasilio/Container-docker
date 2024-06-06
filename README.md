@@ -28,4 +28,13 @@ docker network create --driver bridge --subnet 192.168.1.0/24 --gateway 192.168.
 
 -------------------------------------------------------------------------
 
+☕Comando para criar e executar um contêiner MySQL no Docker<br>
+docker run -e MYSQL_ROOT_PASSWORD=minha-senha --name db -v /app:/var/lib/mysql -d mysql:latest
+
+-------------------------------------------------------------------------
+
+☕Comando para criae e executar um contêiner Joomla no Docker
+docker run -e JOOMLA_DB_USER=root -e JOOMLA_DB_PASSWORD=minha-senha --name joomla --link db:mysql -p 8080:80 -d joomla:php8.0
+
+
 <img src="https://github.com/ItaloBasilio/Container-docker/blob/master/app_dockerfile/img.png?raw=true" >
