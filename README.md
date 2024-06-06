@@ -1,3 +1,7 @@
 # example-course-containers
 
-Letscode repository for container examples with Dockerfile and Docker Compose
+Meu primeiro container Docker
+<br>
+
+
+<img src="https://github.com/ItaloBasilio/Container-docker/blob/master/app_dockerfile/img.png?raw=true" >
