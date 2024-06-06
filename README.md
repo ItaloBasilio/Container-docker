@@ -8,6 +8,11 @@
 docker build -t minha-app .
 <br>
 
+☕Comando para acessar o container<br>
+docker exec -it 8c0037ef5a8e bin/bash<br>
+docker exec -it <nome_do_container> <comando>
+
+
 ☕Comando utilizado para visualizar uma lista de comandos no CMD:
 
 docker --help
